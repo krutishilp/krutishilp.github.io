@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<title>Our HTML Page</title>
+<!-- OneTrust Cookies Consent Notice start for hach.com -->
+
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+	type="text/javascript" charset="UTF-8"
+	data-domain-script="2c61484f-0d7c-4af7-a013-a9eeb31a8fe8-test"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for hach.com -->
+<link href="customStyle.css" rel="stylesheet">
+</head>
+<body>
+
+<h2 class="title">
+	<a href="">Targeting Cookies for Embedded Videos Demo</a>
+</h2>
+<div class="placeholder">
+	<div class="popup" onclick="myFunction()">
+		<div id="warning">
+			<img src="Danaher-Corporation.png" alt="warning"
+				width="400" height="200">
+		</div>
+		<span class="popuptext" id="myPopup" style="color: #fff">
+			<b>The Video requires Targeting Cookies enabled to work!</b> <br>
+			<a href="#description" onclick="enableTargeting();">Click
+				here to enable Targeting Cookies & Play your video.</a> <br>
+			<br> Warning: enabling Targeting Cookies to Play Videos
+			will enable all Targeting Cookies! <br> <br> or
+			<!-- OneTrust Cookies Settings button start --> <a
+			href="#" id="manageCookie" class="ot-sdk-show-settings">Click
+				Here</a> to View & Update all your Cookie Preferences. <!-- OneTrust Cookies Settings button end -->
+			<br> <br> <a href="privacyNotice" target="_blank">Click
+				to view our Privacy Policy </a>
+		</span>
+	</div>
+	<div class="ytdVideo">
+		<iframe id="ytd" style="display: none" width="400" height="200"
+			class="optanon-category-C0004"
+			data-src="https://www.youtube.com/embed/-i5Fp3NM0_k"
+			title="Realize Your Potential Within Product Identification at Danaher"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+	</div>
+
+	<script type="text/plain" class="optanon-category-C0004">
+		document.getElementById("warning").style.display = "none";
+		document.getElementById("ytd").style.display = "block";
+   </script>
+
+</div>
+
+<script src="cookiePref.js"></script>
+</body>
+</html>
